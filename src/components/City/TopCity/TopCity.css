@@ -1,0 +1,47 @@
+.topCity{
+    position: absolute;
+    top:50px;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    display: flex;
+}
+.leftCity{
+    flex: 5;
+    background: #eee;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.left{
+    
+}
+.left h3{
+    line-height: 20px;
+    background: #ccc;
+    padding-left: 10px;
+}
+.left p{
+    line-height: 40px;
+    padding-left: 20px;
+}
+.center{
+    flex: 5;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #f3f6f8;
+}
+.center p{
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    padding-left: 10px;
+}
+.right{
+    flex: .6;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #ccc;
+}
+.right h3{
+    line-height: 40px;
+    text-align: center;
+}

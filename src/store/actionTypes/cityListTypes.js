@@ -1,0 +1,2 @@
+export const GET_CITYACTIVE = 'GET_CITYACTIVE'
+export const GET_CITYCHANGE = 'GET_CITYCHANGE'

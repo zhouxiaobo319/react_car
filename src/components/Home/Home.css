@@ -1,0 +1,71 @@
+.home{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    
+}
+.home_cont{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.home_title{
+    height:40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-around;
+    background: #b8e7ee;
+}
+.home_title a{
+    text-decoration: none;
+}
+.list-box{
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.home_item{
+    position: absolute;
+    top:80px;
+    bottom: 44px;
+    width:100%;
+    background: rgba(0, 0, 0, .3);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.home_item span{
+    display: block;
+    width: 100%;
+    background: #fff;
+}
+.list_item{
+    width:100%;
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #faf5f5;
+}
+.list_item div dl{
+    width:94%;
+    background: #fff;
+    margin:6px 0 8px 3%;
+    border-radius: 8px;
+    line-height: 38px;
+    overflow: hidden;
+}
+.list_item div dl dt{
+    background: #b8e7ee;
+    padding-left: 15px;
+}
+.list_item div dl dd{
+    display: flex;
+    justify-content: space-between;
+    padding:0 15px;
+}
+.list_item div dl dd i{
+    font-size: 14px;
+}

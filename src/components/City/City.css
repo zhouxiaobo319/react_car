@@ -1,0 +1,69 @@
+.city{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.city_head{
+    height:40px;
+    background: royalblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.city_head span{
+    padding:0 20px;
+    font-size: 12px;
+}
+.city_main{
+    flex: 1;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.city_main p{
+    line-height: 40px;
+    padding:0 10px;
+    border-bottom: 1px solid #eee;
+    position: relative;
+}
+.city_main p span{
+    position: absolute;
+    top:0;
+    right: 10px;
+}
+.city_main .yixuan{
+    margin:10px;
+    padding: 0px 10px;
+}
+.city_main .yixuan h3{
+    line-height: 30px;
+}
+.city_main .yixuan ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.city_main .yixuan ul li{
+    padding: 6px 8px;
+    margin:4px;
+}
+.city_list{
+    padding: 0 10px;
+}
+.city_list h3{
+    line-height: 30px;
+    margin-left: 10px;
+}
+.city_list ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.city_list ul li{
+    padding: 6px 8px;
+    margin:4px;
+}
+.city_list ul li.active{
+    border:1px solid orangered;
+}

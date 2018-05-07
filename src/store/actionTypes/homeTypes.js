@@ -1,0 +1,1 @@
+export const GET_HOMELIST = 'GET_HOMELIST'
